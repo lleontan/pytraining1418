@@ -3,9 +3,10 @@ Created on Aug 28, 2014
 
 @author: Leon Tan
 '''
-
-class helloworld():
+class hello_world():
     def __init__(self):
-        print('helloworld')
-        
-helloworld()
+        print 'hello world'
+        self.nextMessage()
+    def nextMessage(self):
+        print 'hello again'  
+hello_world()
